@@ -1,8 +1,9 @@
 import React from "react";
 import Banner from "./Banner";
-import Cards from "./Cards";
 import Info from "./Info";
+import MakeAppointment from "./MakeAppointment";
 import Services from "./Services";
+import Terms from "./Terms";
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
       {/* <Cards></Cards> */}
       <Info></Info>
       <Services></Services>
+      <Terms></Terms>
+      <MakeAppointment></MakeAppointment>
     </div>
   );
 };

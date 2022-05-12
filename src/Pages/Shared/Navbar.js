@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* full display  */}
 
         <div class="navbar-end hidden lg:flex">
-          <ul class="menu menu-horizontal p-0 text-lg">{menuItems}</ul>
+          <ul class="menu menu-horizontal text-lg">{menuItems}</ul>
         </div>
       </div>
     </div>
