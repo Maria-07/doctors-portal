@@ -7,3 +7,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - tailwindcss
     - daisyui
     - react-router-dom@6
+    - react-day-picker
