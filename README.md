@@ -8,3 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - daisyui
     - react-router-dom@6
     - react-day-picker
+    - firebase
+    - react-firebase-hooks
+    - react-hook-form

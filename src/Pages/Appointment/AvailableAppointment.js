@@ -26,7 +26,7 @@ const AvailableAppointment = ({ service, setTreatment }) => {
               onClick={() => setTreatment(service)}
               disabled={slots.length === 0}
               for="booking-modal-6"
-              class="btn btn-primary bg-gradient-to-r from-secondary to-primary hover:from-primary hover:to-secondary uppercase text-white text-lg font-regular my-5"
+              className="btn btn-primary bg-gradient-to-r from-secondary to-primary hover:from-primary hover:to-secondary uppercase text-white text-lg font-regular my-5"
             >
               Book Appointment
             </label>

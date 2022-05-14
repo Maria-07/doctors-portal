@@ -21,21 +21,21 @@ const ContactForm = () => {
           <input
             type="email"
             name="email"
-            class="my-4 p-4 text-lg bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-secondary lg:w-1/4 w-4/5 rounded-md  focus:ring-1"
+            className="my-4 p-4 text-lg bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-secondary lg:w-1/4 w-4/5 rounded-md  focus:ring-1"
             placeholder="you@example.com"
           />
           <br />
           <input
             type="text"
             name="text"
-            class="my-4 p-4 text-lg bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-secondary lg:w-1/4 w-4/5 rounded-md  focus:ring-1"
+            className="my-4 p-4 text-lg bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-secondary lg:w-1/4 w-4/5 rounded-md  focus:ring-1"
             placeholder="Subject"
           />
           <br />
           <textarea
             type="text"
             name="text"
-            class="my-4 p-4 text-lg bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-secondary lg:w-1/4 w-4/5 rounded-md  focus:ring-1"
+            className="my-4 p-4 text-lg bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-secondary lg:w-1/4 w-4/5 rounded-md  focus:ring-1"
             placeholder="Your message"
           />
           <br />

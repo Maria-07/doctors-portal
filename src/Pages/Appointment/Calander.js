@@ -13,11 +13,11 @@ const Calander = ({ date, setDate }) => {
       }}
       className="lg:py-24 py-10"
     >
-      <div class="hero ">
-        <div class="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero ">
+        <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={chair} className="sm:w-3/6 rounded-lg shadow-2xl" />
           <div className=" mr-20">
-            <h1 class="text-2xl text-center font-bold">Pick Your Day</h1>
+            <h1 className="text-2xl text-center font-bold">Pick Your Day</h1>
             <DayPicker mode="single" selected={date} onSelect={setDate} />
             <p className="ml-5 text-lg font-medium text-primary">
               You picked {format(date, "PP")}.

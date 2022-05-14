@@ -4,14 +4,14 @@ import treatment from "../../assets/images/treatment.png";
 const Terms = () => {
   return (
     <div className="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+      <div className="hero">
+        <div className="hero-content flex-col lg:flex-row">
           <img src={treatment} className="  shadow-lg rounded-2xl" />
           <div className="m-10">
-            <h1 class="text-5xl font-bold">
+            <h1 className="text-5xl font-bold">
               Exceptional Dental Care, on Your Terms
             </h1>
-            <p class="py-6">
+            <p className="py-6">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsumis that it has a more-or-less normal
