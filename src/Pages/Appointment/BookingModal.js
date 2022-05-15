@@ -1,8 +1,12 @@
 import { format } from "date-fns";
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
 
 const BookingModal = ({ treatment, date, setTreatment }) => {
   const { name, slots } = treatment;
+  const [user] = useAuthState(auth);
+  console.log(user);
 
   const handleBooking = (event) => {
     event.preventDefault();
@@ -16,7 +20,7 @@ const BookingModal = ({ treatment, date, setTreatment }) => {
       <div className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <label
-            for="booking-modal-6"
+            htmlFor="booking-modal-6"
             className="btn btn-sm btn-circle absolute right-4 top-4"
           >
             ✕
@@ -37,15 +41,18 @@ const BookingModal = ({ treatment, date, setTreatment }) => {
                 name="slot"
                 className="select text-lg select-bordered w-full my-4"
               >
-                {slots.map((slot) => (
-                  <option value={slot}>{slot}</option>
+                {slots.map((slot, index) => (
+                  <option key={index} value={slot}>
+                    {slot}
+                  </option>
                 ))}
               </select>
               <br />
               <input
                 name="name"
                 type="text"
-                placeholder="Your Name"
+                // placeholder="Your Name"
+                value={user?.displayName}
                 className="input input-bordered w-full my-4"
               />
               <br />
@@ -59,7 +66,8 @@ const BookingModal = ({ treatment, date, setTreatment }) => {
               <input
                 name="email"
                 type="email"
-                placeholder="Your Email"
+                // placeholder="Your Email"
+                value={user?.email}
                 className="input input-bordered w-full mt-4"
               />
               <br />

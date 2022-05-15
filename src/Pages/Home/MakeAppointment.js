@@ -11,7 +11,7 @@ const MakeAppointment = () => {
       className=" my-32"
     >
       <section className="container lg:flex justify-center items-center">
-        <div className="flex-1 block ">
+        <div className="flex-1 hidden lg:block  ">
           <img src={doctor} className="mt-[-150px] " alt="" />
         </div>
         <div className="flex-1 p-4 text-white ">
