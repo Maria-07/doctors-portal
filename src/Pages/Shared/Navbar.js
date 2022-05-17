@@ -23,12 +23,15 @@ const Navbar = () => {
         <Link to={"/about"}>Reviews</Link>
       </li>
       <li>
-        <Link to={"/about"}>Contact Us</Link>
+        <Link to={"/about"}>Contact</Link>
       </li>
       {user && (
         <>
           <li>
             <Link to={"/appointment"}>Appointment</Link>
+          </li>
+          <li>
+            <Link to={"/dashboard"}>Dashboard</Link>
           </li>
         </>
       )}
@@ -79,6 +82,14 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        {user && (
+          <label
+            for="my-drawer-2"
+            class="btn btn-primary drawer-button lg:hidden"
+          >
+            Appointment
+          </label>
+        )}
 
         {/* full display  */}
 

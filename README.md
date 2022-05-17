@@ -11,3 +11,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - firebase
     - react-firebase-hooks
     - react-hook-form
+    - react-toastify
+    - react-query
