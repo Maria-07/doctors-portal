@@ -56,6 +56,14 @@ const Dashboard = () => {
                     Add a doctor
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    className=" text-lg font-medium text-secondary"
+                    to={"/dashboard/manageDoctor"}
+                  >
+                    Manage Doctor
+                  </Link>
+                </li>
               </>
             )}
           </ul>
