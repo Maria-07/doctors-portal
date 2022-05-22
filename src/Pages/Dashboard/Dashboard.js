@@ -14,7 +14,7 @@ const Dashboard = () => {
         <div class="drawer-content p-10 ">
           {/* <!-- Page content here --> */}
           <h2 className=" text-3xl font-medium text-primary ">
-            Welcome to your Dashboard
+            Welcome to Dashboard
           </h2>
           <Outlet></Outlet>
         </div>

@@ -13,3 +13,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - react-hook-form
     - react-toastify
     - react-query
+    -@stripe/react-stripe-js
